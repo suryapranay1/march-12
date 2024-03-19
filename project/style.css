@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./img/training-828726_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        font-family: "Marcellus SC", serif;
+        font-weight: 400;
+        font-style: normal;
+       
+}
+.left
+{
+    position: fixed;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    color: white;
+
+}
+.mid
+{
+    display: block;
+    width: 50%;
+    margin: 20px auto ;
+      color:white;
+}
+.right{
+    display: inline-block;
+    color: white;
+    position:fixed;
+    right:34px ;
+    top:20px;
+}
+
+ .navbar li{
+    display: inline-block;
+    font-size: 25px;
+    padding:20px
+ }
+
+ .navbar li a{
+    color: white;
+    text-decoration: none;
+  
+ }
+
+ .navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color:grey;
+ }
+
+.left img{
+    width: 136px;
+    height:50px;
+}
+
+.btn{
+    margin:0px 9px;
+    background-color: black;
+    color:white;
+    padding:4px 14px;
+    border: 2px dashed white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Marcellus SC", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.btn:hover{
+background-color: rgb(151, 39, 27);
+}
+
+.container{
+    border: 2px solid white;
+    margin:258px 500px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+text-align: center;
+display: block;
+width:300px;
+padding:6px;
+border:2px solid black;
+margin: 4px auto;
+font-size: 12px;
+border-radius: 23px;
+font-family: "Marcellus SC", serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+.container h1{
+    color:rgb(0, 149, 151)
+}
+
+.footer{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
